@@ -40,7 +40,7 @@ export const InfiniteMovingDoc = ({
       while (scrollerRef.current.scrollWidth < containerWidth * 2) {
         scrollerContent.forEach((item) => {
           const duplicatedItem = item.cloneNode(true);
-          scrollerRef.current.appendChild(duplicatedItem);
+          scrollerRef.current?.appendChild(duplicatedItem);
         });
       }
 
