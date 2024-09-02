@@ -6,18 +6,17 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36 h-full">
+    <div className="pb-20 pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-[80vh] w-[50vw]"
-
           fill="white"
         />
         <Spotlight
-          className="top-10 left-full md:-left-32 h-[80vh] w-[50vw]"
-          fill="purple"
+          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+          fill="white"
         />
-        <Spotlight className="top-28 left-80 h-[80vh] w-[50vh]" fill="blue" />
+        <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
       <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
@@ -25,10 +24,10 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
 
-      <div className="flex justify-center relative my-60 z-10">
+      <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-wide text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Hi, I'm Pradeep
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
@@ -36,20 +35,11 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Pradeep, a full-stack developer with a passion for
-            creating beautiful and functional web applications. I am a
-            final-year Electrical and Information Engineering undergraduate with
-            8 months of experience as a Trainee Software Developer. Proficient
-            in full-stack web development, DevOps, AI, machine learning, and
-            deep learning. Skilled in JavaScript, Python, PHP, Node.js, React,
-            Express, Flask, Laravel, Docker, Kubernetes, Nginx, WebSocket,
-            MySQL, MongoDB, Redis, and AWS services. Experienced with stacks
-            such as MERN, MEVN, and ASP. Net. Successfully developed user and
-            supplier management systems, multi-tenant IoT applications, and
-            real-time web applications. Certified in Continuous Integration,
-            Deep Learning, Docker, and Kubernetes. Proven ability to enhance
-            operational efficiency, optimize database queries, and implement
-            scalable solutions.
+            Hi, I'm Pradeep, a full-stack developer passionate about creating
+            web applications. I'm a final-year Electrical and Information
+            Engineering student with 8 months of experience as a Trainee
+            Software Developer. I have skills in JavaScript, Python, PHP,
+            Node.js, React, Docker, Kubernetes, MySQL, MongoDB, and AWS. 
           </p>
 
           <a href="#about">

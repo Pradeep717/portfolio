@@ -112,8 +112,8 @@ export const BentoGridItem = ({
           {id === 2 && <GlobeDemo />}
 
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              <div className="flex flex-col gpa-3 lg:gap-8">
+            <div className="flex gap-1 lg:gap-3 w-fit absolute -right-3 lg:-right-2">
+              <div className="flex flex-col gap-2 lg:gap-3">
                 {["React.js", "Next.js", "TypeScript"].map((item) => (
                   <span
                     key={item}
@@ -124,9 +124,9 @@ export const BentoGridItem = ({
                 ))}
                 <span className="py-4 px-3 rounded-lg text-center  bg-[#10132E]"/>
               </div>
-              <div className="flex flex-col gpa-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text  -center  bg-[#10132E]"/>
-                {["Vuer.js", "AWS", "MongoDB"].map((item) => (
+              <div className="flex flex-col gpa-2 lg:gap-5">
+                <span className="py-3 px-3 rounded-lg text  -center  bg-[#10132E]"/>
+                {["JavaScript", "MySQL", "MongoDB"].map((item) => (
                   <span
                     key={item}
                     className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
@@ -135,8 +135,8 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
-              <div className="flex flex-col gpa-3 lg:gap-8">
-                {["Vuer.js", "AWS", "MongoDB"].map((item) => (
+              <div className="flex flex-col gpa-2 lg:gap-5">
+                {["Exress", "Node JS", "Java" ].map((item) => (
                   <span
                   key={item}
                   className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
@@ -146,9 +146,9 @@ export const BentoGridItem = ({
                 ))}
                 <span className="py-4 px-3 rounded-lg text  -center  bg-[#10132E]"/>
               </div>
-              <div className="flex flex-col gpa-3 lg:gap-8 mr-1">
+              <div className="flex flex-col gpa-2 lg:gap-5 mr-1">
                 <span className="py-4 px-3 rounded-lg text  -center  bg-[#10132E]"/>
-                {["Vuer.js", "AWS", "MongoDB"].map((item) => (
+                {["Docker", "AWS", "CI/CD"].map((item) => (
                   <span
                     key={item}
                     className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"

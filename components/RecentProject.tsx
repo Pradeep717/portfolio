@@ -6,6 +6,12 @@ import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 
 const RecentProjects = () => {
+  // Helper function to check if the URL is a video
+  const isVideo = (url: string) => {
+    console.log(url);
+    return url.match(/\.(mp4|webm|ogg)$/i);
+  };
+
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
@@ -19,8 +25,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title={item.link}
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div
@@ -29,11 +35,19 @@ const RecentProjects = () => {
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 absolute bottom-0"
-                />
+                {isVideo(item.img) ? (
+                  <video
+                    src={item.img}
+                    className="z-10 absolute bottom-0"
+                    controls
+                  />
+                ) : (
+                  <img
+                    src={item.img}
+                    alt="cover"
+                    className="z-10 absolute bottom-0"
+                  />
+                )}
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">

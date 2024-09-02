@@ -87,3 +87,6 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

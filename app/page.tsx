@@ -1,4 +1,5 @@
 import Approach from "@/components/Approach";
+import Cirtificates from "@/components/Cirtificates";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -21,7 +22,8 @@ export default function Home() {
         <Hero/>
         <Grid/>
         <RecentProject/>
-        <Clients/>
+        <Cirtificates/>
+        {/* <Clients/> */}
         <Experience/>
         <Approach/>
         <Footer/>

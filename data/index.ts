@@ -18,8 +18,8 @@ export const navItems = [
     },
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
-      description: "",
+      title: "Experienced in Full-Stack Development",
+      description: "Skilled in JavaScript, React, Node.js, Express, Flask, Laravel",
       className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
@@ -59,12 +59,12 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Currently building  Abnormal Event Detection in Videos using Deep Learning",
+      description: "Our goal is to detect abnormal events in videos using deep learning.",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
+      img: "/anomaly_detection.png",
       spareImg: "/grid.svg",
     },
     {
@@ -84,36 +84,54 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: " Abnormal Event Detection in Videos using Deep Learning",
+      des: "Our goal is to detect abnormal events in videos using deep learning at real-time speed and notify the user.",
+      img: "https://res.cloudinary.com/dj76d2css/video/upload/v1721802099/Anomaly%20detection/0613_hrwn3p.mp4",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Real-time Chat Application",
+      des: "Developed a real-time chat application using React.js, Node.js, and Socket.io.",
+      img: "https://res.cloudinary.com/dj76d2css/video/upload/v1705486754/0117_jyxpwx.mp4",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/socket.svg", "/c.svg"],
+      link: "https://wolc.vercel.app/",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
+      title: "AI Virtual Keyboard",
+      des: "Developed an AI virtual keyboard using Python, OpenCV, and MediaPipe.",
+      img: "https://res.cloudinary.com/dj76d2css/video/upload/v1721799919/AI%20virtual%20keyboard/0427_1_yko1io.mp4",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
+      title: "Library Management System",
+      des: "Developed a library management system using ASP.NET Core, Entity Framework, and SQL Server.",
+      img: "https://res.cloudinary.com/dj76d2css/video/upload/v1725263097/LMS/0902_1_nuyrzy.mp4",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "",
     },
+    {
+      id: 5,
+      title: "Two way person counter 🚶‍♂️ + automatic temperature 🌡 and fan controller with Counter dashboard display 💹",
+      des: "Developed a two-way person counter with automatic temperature and fan controller using Microcontroller, Arduino,and Sensors.",
+      img: "/images/arduino.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      link: "",
+    },
+    {
+      id: 6,
+      title: "Online Hotel Booking Sysyem",
+      des: "Developed an online hotel booking system using React.js, Node.js, and MongoDB.",
+      img: "https://res.cloudinary.com/dj76d2css/video/upload/v1725264880/HMS/0902_1_iyuwun.mp4",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/c.svg"],
+      link: "",
+    },
+    
+
   ];
   
   export const testimonials = [
@@ -182,32 +200,81 @@ export const navItems = [
     },
   ];
   
-  export const workExperience = [
-    {
+
+  export const cirtificates = [
+    { 
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      title: "Backend Web Development with JS and Node.js",
+      img: "/images/devTwon.png",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      title: "Modern JavaScript for React JS - ES6",
+      img: "/images/JS.png",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      title: "MERN Stack with Project",
+      img: "/images/mern.png",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "DevOps Foundations: Continuous Delivery/Continuous Integration",
+      img: "/images/devOps.png",
+    },
+    {
+      id: 5,
+      title: "Docker on AWS",
+      img: "/images/docker.png",
+    },
+    {
+      id: 6,
+      title: "AI Workshop: Hands-on with GANs with Deep Convolutional Networks",
+      img: "/images/AI_workshop.png",
+    },
+    {
+      id: 7,
+      title: "Learning Kubernetes",
+      img: "/images/kubernetes.png",
+    },
+    {
+      id: 8,
+      title: "Learn Machine Learning and AI",
+      img: "/images/ML_AI.png",
+    },
+    {
+      id: 9,
+      title: "IP Addressing and Subnetting",
+      img: "/images/IP_address.png",
+    },
+  ];
+
+  export const workExperience = [
+    {
+      id: 1,
+      title: "Trainee Software Developer at Neura Scripts Solution (Pvt) Ltd.",
+      desc: "Worked as a Full Stack Developer, used React, Node.js, Express, MongoDB, and MySQL, PHP, Laravel.",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
+    },
+    // {
+    //   id: 2,
+    //   title: "Mobile App Dev - JSM Tech",
+    //   desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    //   className: "md:col-span-2", // change to md:col-span-2
+    //   thumbnail: "/exp2.svg",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Freelance App Dev Project",
+    //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    //   className: "md:col-span-2", // change to md:col-span-2
+    //   thumbnail: "/exp3.svg",
+    // },
+    {
+      id: 4,
+      title: "Trainee Software Developer at Sierra Asia PVT Ltd.",
+      desc: "Worked on backend and frontend development using React, Node.js, Express, MongoDB, MySQL, Redis, Vue JS, WebSockets, ,GraphQL, and RESTful APIs and also used Docker.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -216,14 +283,17 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
+      ref: "https://github.com/Pradeep717",
       img: "/git.svg",
     },
     {
       id: 2,
+      ref: "",
       img: "/twit.svg",
     },
     {
       id: 3,
+      ref: "https://www.linkedin.com/in/pradeep-sandaruwan-udaya-kumara-952509274/",
       img: "/link.svg",
     },
   ];
