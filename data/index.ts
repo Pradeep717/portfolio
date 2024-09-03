@@ -170,37 +170,132 @@ export const navItems = [
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
+      name: "Cloudinary",
       img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      nameImg: "",
     },
     {
       id: 2,
-      name: "appwrite",
+      name: "Appwrite",
       img: "/app.svg",
-      nameImg: "/appName.svg",
+      nameImg: "",
     },
     {
       id: 3,
-      name: "HOSTINGER",
+      name: "Hostinger",
       img: "/host.svg",
-      nameImg: "/hostName.svg",
+      nameImg: "",
     },
     {
       id: 4,
-      name: "stream",
+      name: "Stream",
       img: "/s.svg",
-      nameImg: "/streamName.svg",
+      nameImg: "",
     },
     {
       id: 5,
-      name: "docker.",
+      name: "Docker.",
       img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      nameImg: "",
     },
+    {
+      id: 6,
+      name: "React",
+      img: "/react-logo.svg",
+      nameImg: "",
+    },
+    {
+      id: 7,
+      name: "",
+      img: "/Next-js.svg",
+      nameImg: "",
+    },
+    {
+      id: 8,
+      name: "TypeScript",
+      img: "/TS-logo.svg",
+      nameImg: "",
+    },
+    {
+      id: 9,
+      name: "Tailwind CSS",
+      img: "/Tailwind-Logo.svg",
+      nameImg: "",
+    },
+    {
+      id: 10,
+      name: "Python",
+      img: "/Python-Logo.svg",
+      nameImg: "",
+    },
+    {
+      id: 11,
+      name: "JavaScript",
+      img: "/js.svg",
+      nameImg: "",
+    },
+    {
+      id: 12,
+      name: "Java",
+      img: "/java.svg",
+      nameImg: "",
+    },
+    {
+      id: 13,
+      name: "Node.js",
+      img: "/nodejs.svg",
+      nameImg: "",
+    },
+    {
+      id: 14,
+      name: "MongoDB",
+      img: "/mongo.svg",
+      nameImg: "",
+    },
+    {
+      id: 15,
+      name: "GraphQL",
+      img: "/graphql.svg",
+      nameImg: "",
+    },
+    {
+      id: 16,
+      name: "Redis",
+      img: "/redis.svg",
+      nameImg: "",
+    },
+    {
+      id: 17,
+      name: "MySQL",
+      img: "/mysql2.svg",
+      nameImg: "",
+    },
+    {
+      id: 18,
+      name: "Laravel",
+      img: "/laravel.svg",
+      nameImg: "",
+    },
+    {
+      id: 19,
+      name: "Vue.js",
+      img: "/vue.svg",
+      nameImg: "",
+    },
+    {
+      id: 20,
+      name: "Jenkins",
+      img: "/jenkins.svg",
+    }
   ];
-  
 
+  export const profile = {
+    name: "Pradeep Sandaruwan",
+    title: "Full Stack Developer",
+    img: "/images/pradeep2.png",
+    svg: "/HeroCircles.svg",
+  };
+  
   export const cirtificates = [
     { 
       id: 1,
@@ -289,7 +384,7 @@ export const navItems = [
     {
       id: 2,
       ref: "",
-      img: "/twit.svg",
+      img: "/X-Twitter-Logo.svg",
     },
     {
       id: 3,
