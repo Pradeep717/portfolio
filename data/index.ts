@@ -213,7 +213,7 @@ export const navItems = [
     {
       id: 8,
       name: "TypeScript",
-      img: "/TS-logo.svg",
+      img: "/TS-Logo.svg",
       nameImg: "",
     },
     {
